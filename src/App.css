@@ -1,0 +1,87 @@
+.container {
+    max-width: 600px;
+    margin: 30px auto;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    font-size: 32px;
+    margin-bottom: 20px;
+  }
+  
+  .balance {
+    margin-bottom: 20px;
+  }
+  
+  .balance h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .balance h3 {
+    font-size: 24px;
+    color: #2ecc71;
+  }
+  
+  .form-control {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    font-size: 18px;
+  }
+  
+  input[type="text"],
+  input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+  }
+  
+  button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    font-size: 18px;
+    border: none;
+    border-radius: 4px;
+    background-color: #2ecc71;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #27ae60;
+  }
+  
+  .list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .list li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    font-size: 18px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .list li:last-child {
+    border-bottom: none;
+  }
+  
+  .minus {
+    color: #c0392b;
+  }
+  
+  .plus {
+    color: #2ecc71;
+  }
+  
